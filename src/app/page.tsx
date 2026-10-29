@@ -7,7 +7,9 @@ export default function Page() {
       <main>
         <Header>Ling Ling Website</Header>
         <div className="flex justify-center items-center">
-          <Link className="text-xl underline" href="/account">Account</Link>
+          <Link className="text-xl underline" href="/account">
+            Account
+          </Link>
         </div>
       </main>
     </div>

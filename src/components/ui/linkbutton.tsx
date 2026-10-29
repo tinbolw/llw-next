@@ -7,5 +7,5 @@ export default function Button({
     "active:scale-95 active:shadow-inner inline-flex items-center justify-center",
   ...props
 }: ComponentProps<typeof Link>) {
-  return <Link className={className} {...props}></Link>
+  return <Link className={className} {...props}></Link>;
 }

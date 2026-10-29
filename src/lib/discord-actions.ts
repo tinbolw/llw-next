@@ -3,7 +3,9 @@
  * @param accessToken
  * @returns
  */
-export async function getGuilds(accessToken: string): Promise<({ id: string } & Record<string, unknown>)[]> {
+export async function getGuilds(
+  accessToken: string,
+): Promise<({ id: string } & Record<string, unknown>)[]> {
   const endpoint = "https://discord.com/api/v10/users/@me/guilds";
   const response = await fetch(endpoint, {
     headers: {
