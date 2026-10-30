@@ -7,7 +7,7 @@ import prettierConfig from "eslint-plugin-prettier/recommended";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  ...prettier,
+  prettier,
   prettierConfig,
   // Override default ignores of eslint-config-next.
   globalIgnores([
