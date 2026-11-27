@@ -10,9 +10,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@better-auth/redis-storage": "^1.7.25",
-    "better-auth": "^1.7.25",
-    "ioredis": "^6.0.0",
+    "@better-auth/redis-storage": "^1.7.27",
+    "better-auth": "^1.7.27",
+    "ioredis": "^6.1.0",
     "next": "16.4.6",
     "pg": "^8.23.1",
     "react": "19.3.1",
